@@ -4,7 +4,14 @@
 		"property": "custom_model_data",
 		"fallback": {	
 			"type": "model",
-			"model": "item/warden_spawn_egg"
+			"model": "item/template_spawn_egg",
+			"tints": [
+				{
+				  "type": "minecraft:constant",
+				  "value": 1001033
+				}
+			  ]
+			
 	 	 },
 	  
 	  "cases": [
